@@ -5,7 +5,7 @@ let path = require('path')
 let server = http.createServer(app)
 let io = require('socket.io')(server);
 
-let port = 3000;
+let port = process.env.PORT || 3000
 server.listen(port, () => {
   console.log('Server listening at port %d', port);
 });

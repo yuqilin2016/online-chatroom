@@ -21,7 +21,7 @@ $(function(){
   let connected = false
   let typing = false
 
-	let socket = io.connect('http://localhost:3000')
+	let socket = io()
 
 	const cleanInput = (input) => {
     return $('<div/>').text(input).html();
