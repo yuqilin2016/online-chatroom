@@ -49,7 +49,7 @@ ul {
 /* Login Page */
 
 .login.page {
-  background-color: #000;
+  background-color: PowderBlue;
 }
 
 .login.page .form {
@@ -65,7 +65,7 @@ ul {
 .login.page .form .usernameInput {
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
   outline: none;
   padding-bottom: 15px;
   text-align: center;
@@ -82,7 +82,7 @@ ul {
 }
 
 .login.page .title, .login.page .usernameInput {
-  color: #fff;
+  color: #000;
   font-weight: 100;
 }
 
@@ -137,7 +137,7 @@ ul {
 /* Input */
 
 .inputMessage {
-  border: 10px solid #000;
+  border: 10px solid PowderBlue;
   bottom: 0;
   height: 60px;
   left: 0;
@@ -147,3 +147,10 @@ ul {
   right: 0;
   width: 100%;
 }
+
+/*@media screen and (max-width: 700px) {
+  .title {
+    font-size: 30px;
+  }
+}
+*/
