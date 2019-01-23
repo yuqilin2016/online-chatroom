@@ -1,6 +1,6 @@
 # online-chatroom
 # 在线聊天室
-主要使用：node.js+socket.io  
+node.js+socket.io  
 https://fast-beyond-59920.herokuapp.com/
 
 # 本地安装步骤
